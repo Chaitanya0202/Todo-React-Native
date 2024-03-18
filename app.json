@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Todo",
-    "slug": "Todo",
+    "name": "Todo App",
+    "slug": "todo-app",
+    "description": "this is ToDo App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chetan0202.todoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34286d00-158b-4d45-92b5-b73fc6bf632d"
+      }
     }
   }
 }
